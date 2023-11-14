@@ -8,3 +8,10 @@ radio.onReceivedNumber(function (receivedNumber) {
     }
 })
 radio.setGroup(124)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . # . .
+    . . # . .
+    . . # . .
+    `)
